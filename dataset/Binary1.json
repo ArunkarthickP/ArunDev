@@ -1,0 +1,19 @@
+{
+	"name": "Binary1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "dbo.Table_6.txt",
+				"folderPath": "Input",
+				"container": "arun"
+			}
+		}
+	}
+}
